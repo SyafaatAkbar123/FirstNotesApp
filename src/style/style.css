@@ -1,0 +1,79 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+#my-note-list {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#my-note-form {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#my-note-form h2 {
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+form {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+form input,
+form textarea {
+  width: auto;
+  padding: 0.5rem;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  background-color: #343a40;
+  width: auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+article {
+  border: 1px solid #ced4da;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  height: 200px;
+}
+
+article h2 {
+  height: auto;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
